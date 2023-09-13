@@ -1,143 +1,140 @@
-# PlayerPositionEDA
+# 📊 PlayerPositionEDA.ipynb
 
-## Introducción:
-El cuaderno de Jupyter "PlayerPositionEDA.ipynb" se enfoca en realizar un Análisis Exploratorio de Datos (EDA) relacionado con las posiciones de los jugadores de fútbol. A través del uso de diversas bibliotecas de Python, el cuaderno explora y visualiza datos relacionados con las calificaciones y posiciones de los jugadores a lo largo de diferentes temporadas. El objetivo principal es obtener una comprensión profunda de cómo las posiciones de los jugadores se correlacionan con sus calificaciones y cómo estas evolucionan con el tiempo.
+## 🚀 Introduction:
+The Jupyter notebook "PlayerPositionEDA.ipynb" is your gateway to an exciting journey through Exploratory Data Analysis (EDA) in the realm of football player positions. Dive into this adventure powered by various Python libraries as we explore and visualize data related to player ratings and positions across different seasons. Our main goal? To unravel the intricate dance between player positions and ratings, tracing their evolution over time.
 
-## Objetivo:
-El objetivo principal del cuaderno es realizar un análisis exhaustivo de los datos de jugadores de fútbol con el fin de identificar patrones y relaciones entre las posiciones de los jugadores y sus calificaciones. Algunos de los objetivos específicos incluyen:
+## 🎯 Objective:
+Our compass points us towards the comprehensive analysis of football player data, aiming to unearth hidden patterns and relationships between player positions and ratings. Some specific goals include:
 
-- Visualizar las posiciones más comunes de los jugadores.
-- Realizar un análisis de componentes principales (PCA) para explorar la agrupación de jugadores por posición.
-- Estudiar la evolución de las calificaciones de los jugadores a lo largo de las temporadas.
-- Investigar la distribución de las calificaciones generales de los jugadores en diferentes posiciones.
+- Painting vivid portraits of the most common player positions.
+- Navigating the player constellation through Principal Component Analysis (PCA).
+- Unveiling the player ratings' metamorphosis across seasons.
+- Charting the topography of overall player ratings across different positions.
 
-## Técnicas:
-El cuaderno utiliza una variedad de técnicas y herramientas de análisis de datos, incluyendo:
-- Lectura y manipulación de datos con pandas.
-- Visualización de datos mediante matplotlib y seaborn para crear gráficos, histogramas y gráficos de caja.
-- Aplicación de Análisis de Componentes Principales (PCA) para reducir la dimensionalidad de los datos y visualizar agrupaciones.
-- Uso de estadísticas descriptivas para comprender la distribución de las calificaciones de los jugadores.
-- La implementación de técnicas de aprendizaje automático, como Random Forest y redes neuronales, no se menciona en el código proporcionado, pero es posible que se utilicen en otras partes del proyecto.
-  
-## Resultados:
-Aunque el cuaderno no proporciona una sección explícita de "Resultados", los resultados del análisis se presentan en forma de visualizaciones y gráficos que permiten obtener información valiosa sobre las relaciones entre las posiciones de los jugadores y sus calificaciones. Algunos resultados notables incluyen la identificación de patrones de agrupación de jugadores con técnicas de PCA, la visualización de la evolución de las calificaciones de jugadores a lo largo de las temporadas y la comprensión de cómo varían las calificaciones generales según la posición de los jugadores. Estos resultados pueden ser fundamentales para la toma de decisiones en el ámbito del fútbol, como la selección de jugadores o la evaluación de su desempeño a lo largo del tiempo.
+## 🛠️ Techniques:
+Our toolkit consists of a diverse set of data analysis techniques and tools, including:
+- Crafting data narratives and orchestrating data movements with pandas.
+- Illuminating insights through data visual symphonies performed by matplotlib and seaborn, rendering captivating charts, histograms, and enchanting box plots.
+- Applying the magical wand of Principal Component Analysis (PCA) to shrink data dimensions and create visual clusters.
+- Weaving the rich tapestry of descriptive statistics to understand the distribution of player ratings.
+- Hints of machine learning magic, such as the enigmatic Random Forest and neural networks, may be lurking beyond the provided code, waiting to reveal their secrets elsewhere in the project.
 
-# PlayerPositionPrediction
+## 📈 Results:
+While there's no dedicated "Results" section, the analysis unfolds like a captivating story, with results woven into visualizations and charts. Expect to unearth patterns in player clustering through PCA techniques, witness the player ratings' evolution, and grasp the symphony of overall ratings orchestrated by player positions. These discoveries hold the keys to decisions in the realm of football, like player selection and performance evaluation over time.
 
-## Introducción:
+# ⚽ PlayerPositionPrediction.ipynb
 
-El notebook proporciona un enfoque detallado para predecir las posiciones de los jugadores de fútbol utilizando datos de estadísticas de jugadores y datos de FIFA. La idea principal es predecir las posiciones de los jugadores en función de sus características y habilidades, lo que puede ser útil para clubes de fútbol, entrenadores y analistas deportivos para tomar decisiones informadas sobre la alineación y la estrategia del equipo.
+## 🌟 Introduction:
+The notebook is your ticket to predicting football player positions using player statistics and FIFA data. We embark on a quest to predict player positions based on their characteristics and abilities, shedding light on decisions about team lineup and strategy for football clubs, coaches, and sports analysts.
 
-## Objetivo:
+## 🏆 Objective:
+Our quest's ultimate goal? Forge a machine learning model that accurately predicts football player positions using their characteristics and statistics. In this epic journey, we also seek to unveil the essential traits that shape player positions.
 
-El objetivo principal de este proyecto es desarrollar un modelo de aprendizaje automático que pueda predecir las posiciones de los jugadores de fútbol en función de sus características y estadísticas. Además, se busca mejorar la comprensión de las características más importantes que influyen en las posiciones de los jugadores.
+## 🔧 Techniques:
+Our journey involves several techniques and tools:
 
-## Técnicas:
+**Data Preparation:** We gather data from player statistics and FIFA datasets, forging an alliance between information, cleaning it, and transforming it into a suitable format.
 
-Preparación de los datos: Se utiliza una base de datos de estadísticas de jugadores y datos de FIFA para unir la información relevante, limpiar los datos y transformarlos en un formato adecuado para el análisis.
+**Exploratory Data Analysis (EDA):** We embark on a voyage through player statistics, crafting visual tales to understand the relationship between features and player positions.
 
-Análisis exploratorio de datos (EDA): Se exploran las estadísticas de los jugadores y se realizan visualizaciones para comprender mejor las relaciones entre las características y las posiciones de los jugadores.
+**Machine Learning Models:** We wield the magic of machine learning, unleashing linear regression, Random Forest, and a neural network to predict player positions.
 
-Modelos de aprendizaje automático: Se implementan varios modelos de aprendizaje automático, incluyendo regresión lineal, Random Forest y una red neuronal, para predecir las posiciones de los jugadores.
+**Model Evaluation:** We measure our models' worth through the lenses of accuracy, F1 score, and the mystique of the confusion matrix.
 
-Evaluación de modelos: Se evalúan los modelos utilizando métricas como precisión, puntuación F1 y análisis de la matriz de confusión.
+**Creation of New Features:** In our quest, we craft new features from original statistics to empower our model's predictive prowess.
 
-Creación de nuevas características: Se crean nuevas características a partir de las estadísticas originales para mejorar la capacidad predictiva del modelo.
+## 🚀 Results:
+Our journey has led us through data's treacherous paths, including data cleaning and feature crafting. Along the way:
 
-## Resultados:
+- We've summoned the spirits of machine learning models, with the neural network showing its promising potential.
+- We've uncovered the elusive threshold for binary predictions, guided by the F1 score.
+- We've deciphered the hieroglyphs of feature importance in predicting player positions.
+- Our trained model has ventured beyond known horizons, predicting player positions not found in the FIFA database, expanding its predictive power.
 
-Se han utilizado diversas técnicas de procesamiento de datos para limpiar y preparar los datos, incluyendo la eliminación de valores incorrectos y la transformación de valores categóricos.
+# 📈 Formations_DataFrame.ipynb
 
-Se han implementado varios modelos de aprendizaje automático, con la red neuronal mostrando un rendimiento prometedor.
+## 🌐 Introduction:
+This notebook delves into the world of football match data and player statistics to uncover the secrets of team formations and player performance. Prepare for a data-driven journey filled with preprocessing, feature engineering, and captivating visualizations.
 
-Se ha identificado un umbral óptimo para las predicciones binarias basado en el puntaje F1.
+## 🎯 Objective:
+Our primary objective is twofold:
 
-Se ha explorado la importancia de las características en la predicción de las posiciones de los jugadores, identificando las características más influyentes.
+- Explore how team formations influence match outcomes through the analysis of football match data and player statistics.
+- Forge a new dataset that harmoniously merges match results and player statistics, providing fertile ground for in-depth exploration.
 
-Se ha utilizado el modelo entrenado para predecir las posiciones de jugadores que no estaban en la base de datos de FIFA, lo que permite ampliar la capacidad de predicción del modelo.
+## 🔨 Techniques:
+Our arsenal includes a variety of techniques and processes:
 
-# Formations_DataFrame
+**Data Cleaning:** We cleanse and prepare football match data and player statistics, ensuring data purity and quality.
 
-## Introduction
-The notebook appears to focus on analyzing football match data and player statistics to derive insights into team formations and player performance. It seems to involve extensive data preprocessing, feature engineering, and visualization to achieve its goals.
+**Data Transformation:** From converting match dates into seasons to the creation of new features, our transformation magic shapes data.
 
-## Objective
-The primary objective of this notebook seems to be:
+**Data Visualization:** Visualizations take center stage, featuring football field diagrams with player positions and insights that illuminate the path.
 
-To analyze football match data and player statistics to understand how team formations influence match outcomes.
-To create a new dataset that combines match results and player statistics, allowing for in-depth analysis.
+**Data Merging:** Datasets unite as we merge match results with player statistics, unveiling a richer dataset.
 
-## Techniques
-The notebook employs several techniques and processes, including:
+**Feature Engineering:** The crafting of columns to represent player formations and match winners adds depth to our analysis.
 
-Data Cleaning: Cleaning and preprocessing football match data and player statistics to remove null values and ensure data quality.
-Data Transformation: Creating new features and columns from existing data, such as converting dates into seasons.
-Data Visualization: Creating visualizations, such as football field diagrams with player positions, to gain insights.
-Data Merging: Merging datasets to combine match results with player statistics.
-Feature Engineering: Creating columns to represent player formations and match winners.
+## 📊 Results:
+The journey culminates in the creation of a new dataset christened "MatchAndStats.csv." This dataset beckons explorers to embark on further expeditions into the intricate relationship between team formations and match outcomes.
 
-## Results
-The final result of the notebook is the creation of a new dataset named "MatchAndStats.csv," which appears to combine match data, player statistics, and formations. The dataset likely provides a foundation for further analysis and exploration of how team formations affect match outcomes.
+# ⚽ FormationsOptimization.ipynb
+## 🌠 Introduction:
 
+This project revolves around a Jupyter notebook dedicated to analyzing and predicting football team formations using statistical and performance data. The notebook deploys an array of machine learning techniques, including linear regression, Random Forest, and a neural network, to predict winning formations in football matches.
 
-# FormationsOptimization
-## Introducción:
+## 🎯 Objective:
 
-El proyecto se basa en un cuaderno de Jupyter que se utiliza para analizar y predecir formaciones de equipos de fútbol en función de datos estadísticos y de rendimiento. El cuaderno utiliza una variedad de técnicas de aprendizaje automático, como la regresión lineal, el bosque aleatorio y una red neuronal, para predecir las formaciones ganadoras en partidos de fútbol.
+Our grand objective is to craft a machine learning model that masterfully predicts winning team formations in football matches based on historical performance data. Coaches and sports analysts eagerly anticipate the unveiling of which formations hold the key to success in various game scenarios.
 
-## Objetivo:
+## 🔧 Techniques:
 
-El objetivo principal del proyecto es desarrollar un modelo de aprendizaje automático que pueda predecir con precisión las formaciones de los equipos ganadores en partidos de fútbol en función de datos históricos de rendimiento. Esto podría ser útil para entrenadores y analistas deportivos que deseen comprender qué formaciones tienen más probabilidades de tener éxito en diferentes situaciones de juego.
+Our toolkit features the following techniques and steps:
 
-## Técnicas:
+**Data Loading:** Data is summoned from a CSV file containing a treasure trove of football match information and associated statistics.
 
-El cuaderno utiliza las siguientes técnicas y pasos:
+**Data Preprocessing:** Data undergoes transformations, including one-hot encoding of team formations and feature scaling.
 
-Carga de datos: Se cargan los datos de un archivo CSV que contiene información sobre partidos de fútbol y estadísticas asociadas.
+**Oversampling:** We address the imbalances in formation classes by venturing into oversampling the minority classes.
 
-Preprocesamiento de datos: Se realizan diversas transformaciones en los datos, como la codificación one-hot de las formaciones de equipos y el escalado de características.
+**Machine Learning Models:**
 
-Oversampling: Se realiza el oversampling de las clases minoritarias en el conjunto de datos para abordar desequilibrios en las clases de formaciones.
+- *Linear Regression:* A stately model for predicting winning formations.
+- *Random Forest:* A mystical forest of classification trees trained to predict winning formations.
+- *Neural Network:* The birth of a deep neural network powered by TensorFlow and Keras for predictions.
 
-Modelos de Machine Learning:
+**Model Evaluation:** Our models undergo rigorous evaluation, including deciphering confusion matrices, accuracy metrics, and the enchantment of the F1 score.
 
-Regresión Lineal: Se entrena un modelo de regresión lineal para predecir las formaciones ganadoras.
-Random Forest: Se entrena un clasificador de bosque aleatorio para predecir las formaciones ganadoras.
-Red Neuronal: Se crea y entrena una red neuronal profunda utilizando TensorFlow y Keras para realizar predicciones.
-Evaluación de Modelos: Se evalúan los modelos utilizando matrices de confusión, precisión y puntuación F1.
+**Results Visualization:** Our journey concludes with the unveiling of results through captivating visuals, including the display of confusion matrix plots and the mystic curves of learning.
 
-Visualización de Resultados: Se visualizan los resultados, incluyendo gráficos de matrices de confusión y curvas de aprendizaje.
+## 📈 Results:
 
-## Resultados:
+Behold the fruits of our journey, where the models have been conjured to predict winning formations in football matches. The performance of these models is scrutinized using metrics such as accuracy and the F1 score. Visualizations, including the unveiling of the confusion matrix's secrets, offer a deeper understanding of how predictions align with actual formations.
 
-Los resultados muestran la capacidad de los modelos para predecir formaciones ganadoras en partidos de fútbol. Se utilizan medidas de evaluación como la precisión y la puntuación F1 para evaluar el rendimiento de los modelos. La visualización de matrices de confusión proporciona una comprensión más detallada de cómo se comparan las predicciones con las formaciones reales.
+In summary, this notebook embarks on a machine learning odyssey to tackle a football-related challenge, providing an evaluation of the models' ability to predict winning formations based on statistical and performance data.
 
-En resumen, el cuaderno utiliza técnicas de aprendizaje automático para abordar un problema relacionado con el fútbol y ofrece una evaluación de la capacidad de los modelos para predecir formaciones ganadoras en función de datos estadísticos y de rendimiento.
+# ⚽ Formation_Evaluation.ipynb
 
+## 🎮 Introduction:
 
-# Formation_Evaluation
+The notebook orchestrates a symphony of data analysis and modeling to predict losing team formations in football matches. Armed with a dataset brimming with match, team, and player information, it ventures into the realm of machine learning to foresee the formations of the unfortunate teams.
 
-## Introducción:
+## 🏴‍☠️ Objective:
 
-El notebook presenta un análisis de datos y modelado para predecir las formaciones perdedoras en partidos de fútbol. Se utiliza un conjunto de datos que contiene información sobre partidos, equipos y jugadores de fútbol.
+The primary objective is to predict the formations of losing teams in football matches. To achieve this, the notebook calls upon the arts of data preprocessing, feature creation, and machine learning modeling.
 
-## Objetivo:
+## 🔨 Techniques Utilized:
 
-El objetivo principal del análisis es predecir las formaciones de los equipos perdedores en los partidos de fútbol. Para lograr esto, se utilizan técnicas de procesamiento de datos, creación de características y modelado de aprendizaje automático.
+**Data Preprocessing:** The dataset is tamed, with match dates aligned to specific seasons and data cleaned to prepare it for analysis.
 
-## Técnicas Utilizadas:
+**Feature Creation:** A new dataset emerges, merging match and player information. It identifies the losers in matches and extracts relevant player features.
 
-Preprocesamiento de Datos: El conjunto de datos se preprocesa para ajustar las fechas de los partidos a temporadas específicas y se realizan limpiezas en los datos para su posterior análisis.
+**One-Hot Encoding:** Formations of losing teams are encoded into binary features, creating an enchanting dataset.
 
-Creación de Características: Se crea un nuevo conjunto de datos que combina información sobre partidos y jugadores. Se identifica a los perdedores en los partidos y se extraen características relevantes de los jugadores en esos partidos.
+**Machine Learning Modeling:** Models are summoned, from neural networks to the enigmatic Random Forest, trained to predict losing team formations based on player characteristics.
 
-Codificación One-Hot: Se utiliza la codificación one-hot para representar las formaciones de los equipos perdedores como características binarias.
+**Model Evaluation:** The models face their reckoning, evaluated using precision, F1 score, and the unveiling of the confusion matrix.
 
-Modelado de Aprendizaje Automático: Se entrenan modelos de aprendizaje automático, como redes neuronales y Random Forest, para predecir las formaciones de los equipos perdedores en función de las características de los jugadores.
+## 📊 Results:
 
-Evaluación de Modelos: Se evalúan los modelos utilizando métricas como la precisión y el puntaje F1.
-
-## Resultados:
-
-El análisis proporciona modelos capaces de predecir las formaciones de los equipos perdedores en partidos de fútbol con base en las características de los jugadores. Se presentan visualizaciones, matrices de confusión y métricas de evaluación para evaluar el rendimiento de los modelos. Los resultados finales indican la eficacia de los modelos en la tarea de predicción de formaciones perdedoras en partidos de fútbol.
-
+The analysis births models with the power to predict losing team formations in football matches, guided by player characteristics. Visualizations, confusion matrices, and evaluation metrics present the models' performance, signifying their efficacy in the daunting task of predicting losing formations in the world of football.
