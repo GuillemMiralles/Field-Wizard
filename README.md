@@ -43,7 +43,6 @@
     <li><a href="PlayerPositionPrediction.ipynb">PlayerPositionPrediction.ipynb</a>: The notebook is your ticket to predicting football player positions using player statistics and FIFA data. We embark on a quest to predict player positions based on their characteristics and abilities, shedding light on decisions about team lineup and strategy for football clubs, coaches, and sports analysts.</li>
     <li><a href="Formations_DataFrame.ipynb">Formations_DataFrame.ipynb</a>: This notebook delves into the world of football match data and player statistics to uncover the secrets of team formations and player performance. Prepare for a data-driven journey filled with preprocessing, feature engineering, and captivating visualizations.</li>
     <li><a href="FormationsOptimization.ipynb">FormationsOptimization.ipynb</a>: This project revolves around a Jupyter notebook dedicated to analyzing and predicting football team formations using statistical and performance data. The notebook deploys an array of machine learning techniques, including linear regression, Random Forest, and a neural network, to predict winning formations in football matches.</li>
-   <li><a href="Formation_Evaluation.ipynb">Formation_Evaluation.ipynb</a>: The notebook orchestrates a symphony of data analysis and modeling to predict losing team formations in football matches. Armed with a dataset brimming with match, team, and player information, it ventures into the realm of machine learning to foresee the formations of the unfortunate teams.</li>
             
   </ul>
   
