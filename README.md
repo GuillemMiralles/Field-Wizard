@@ -2,15 +2,15 @@
 
 **Author: Guillem Miralles**
 
-## Abstract
+## Abstract 📝
 
-The project, titled "Title of Your Project," represents a comprehensive exploration of football player data and match-related information with a goal to uncover insights, patterns, and predictive models in the realm of professional football. The project comprises a series of Jupyter notebooks, each focusing on specific aspects of the analysis, ranging from exploratory data analysis (EDA) to predictive modeling of football-related phenomena. In this paper, we provide an overarching view of the project's objectives, techniques employed, and key results achieved in each of the notebooks.
+The project, titled "Field Wizard: Predicting Positions and Formations for Success on the Soccer Field", represents a comprehensive exploration of football player data and match-related information with a goal to uncover insights, patterns, and predictive models in the realm of professional football. The project comprises a series of Jupyter notebooks, each focusing on specific aspects of the analysis, ranging from exploratory data analysis (EDA) to predictive modeling of football-related phenomena. 
 
-## 1. Introduction
+## 1. Introduction 📣
 
-The world of professional football is driven by data, with every player, team, and match generating a treasure trove of information. In the era of data-driven decision-making, understanding and harnessing this wealth of data can lead to significant advantages in player scouting, team strategy development, and match outcome prediction. The "Title of Your Project" project seeks to leverage advanced data analysis and machine learning techniques to explore diverse facets of football-related data.
+The world of professional football is driven by data, with every player, team, and match generating a treasure trove of information. In the era of data-driven decision-making, understanding and harnessing this wealth of data can lead to significant advantages in player scouting, team strategy development, and match outcome prediction. The project seeks to leverage advanced data analysis and machine learning techniques to explore diverse facets of football-related data.
 
-## 2. Notebooks Overview
+## 2. Notebooks Overview 📚
 
 The project comprises four distinct Jupyter notebooks, each addressing specific aspects of football data analysis and modeling:
 
@@ -22,38 +22,37 @@ The project comprises four distinct Jupyter notebooks, each addressing specific 
 
 4. **FormationsOptimization.ipynb:** Winning football formations can significantly impact match outcomes. This notebook ventures into the realm of predictive modeling to identify winning team formations based on historical performance data. The application of machine learning, including linear regression and Random Forest, empowers coaches and analysts with insights into successful formations.
 
+5. **FormationsOptimization.ipynb:** The notebook orchestrates a symphony of data analysis and modeling to predict losing team formations in football matches. Armed with a dataset brimming with match, team, and player information, it ventures into the realm of machine learning to foresee the formations of the unfortunate teams.
+
 For detailed explanations and results, please refer to the respective notebooks linked below.
 
-## 3. Methodology
+## 3. Methodology 📙
 
-The project employs a diverse set of techniques and tools, including data preprocessing, exploratory data analysis, machine learning modeling, and feature engineering. These techniques collectively form the foundation for gaining insights and building predictive models in the domain of professional football.
+The project employs a diverse set of techniques and tools, including data preprocessing, exploratory data analysis, eature engineering, machine learning modeling and deep learning. These techniques collectively form the foundation for gaining insights and building predictive models in the domain of professional football.
 
-## 4. Results and Findings
+## 4. Results and Findings 🔮
 
 The results of the project are distributed across the individual notebooks but collectively offer valuable insights:
 
-- [PlayerPositionEDA.ipynb](Link to PlayerPositionEDA.ipynb) reveals how player positions and ratings correlate, evolving over seasons.
-- [PlayerPositionPrediction.ipynb](Link to PlayerPositionPrediction.ipynb) provides predictive models for player positions, aiding in player selection and strategy.
-- [Formations_DataFrame.ipynb](Link to Formations_DataFrame.ipynb) introduces the "MatchAndStats.csv" dataset, enabling in-depth formation analysis.
-- [FormationsOptimization.ipynb](Link to FormationsOptimization.ipynb) identifies winning formations, facilitating informed decisions for coaches and analysts.
+- [PlayerPositionEDA.ipynb] reveals how player positions and ratings correlate, evolving over seasons.
+- [PlayerPositionPrediction.ipynb] provides predictive models for player positions, aiding in player selection and strategy.
+- [Formations_DataFrame.ipynb] introduces the "MatchAndStats.csv" dataset, enabling in-depth formation analysis.
+- [FormationsOptimization.ipynb] identifies winning formations, facilitating informed decisions for coaches and analysts.
 
-## 5. Conclusion
+## 5. Conclusion 💭
 
-The "Title of Your Project" project represents a holistic endeavor to extract actionable insights from football data. By combining exploratory data analysis, predictive modeling, and formation analysis, it contributes to the growing body of knowledge in the field of sports analytics. The project's findings hold significant potential for enhancing player performance assessment, team strategy development, and match outcome prediction in professional football.
+The project represents a holistic endeavor to extract actionable insights from football data. By combining exploratory data analysis, predictive modeling, and formation analysis, it contributes to the growing body of knowledge in the field of sports analytics. The project's findings hold significant potential for enhancing player performance assessment, team strategy development, and match outcome prediction in professional football.
 
-## 6. Future Directions
+## 6. Future Directions ⏬
 
 While the project has provided valuable insights, there are numerous avenues for future exploration. Future research could include:
 
 - Incorporating real-time data to enhance predictive models.
-- Exploring the impact of weather conditions and venue on match outcomes.
+- Exploring the impact of more features on match outcomes.
 - Conducting player-specific performance analysis for individual player development.
 
-## Acknowledgments
 
-The authors would like to express their gratitude to [Acknowledgment Details] for their support and contributions to this project.
-
-
+# Detailed notebooks 🔎
 ---
 ## 📊 PlayerPositionEDA.ipynb
 
