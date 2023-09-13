@@ -1,7 +1,5 @@
 # Field Wizard: Predicting Positions and Formations for Success on the Soccer Field ⚽🧐🔥
 
-**Author: Guillem Miralles**
-
 ## Abstract 📝
 
 The project, titled "Field Wizard: Predicting Positions and Formations for Success on the Soccer Field", represents a comprehensive exploration of football player data and match-related information with a goal to uncover insights, patterns, and predictive models in the realm of professional football. The project comprises a series of Jupyter notebooks, each focusing on specific aspects of the analysis, ranging from exploratory data analysis (EDA) to predictive modeling of football-related phenomena. 
@@ -24,11 +22,10 @@ The project comprises four distinct Jupyter notebooks, each addressing specific 
 
 5. **FormationsOptimization.ipynb:** The notebook orchestrates a symphony of data analysis and modeling to predict losing team formations in football matches. Armed with a dataset brimming with match, team, and player information, it ventures into the realm of machine learning to foresee the formations of the unfortunate teams.
 
-For detailed explanations and results, please refer to the respective notebooks linked below.
 
 ## 3. Methodology 📙
 
-The project employs a diverse set of techniques and tools, including data preprocessing, exploratory data analysis, eature engineering, machine learning modeling and deep learning. These techniques collectively form the foundation for gaining insights and building predictive models in the domain of professional football.
+The project employs a diverse set of techniques and tools, including data preprocessing, exploratory data analysis, feature engineering, machine learning modeling and deep learning. These techniques collectively form the foundation for gaining insights and building predictive models in the domain of professional football.
 
 ## 4. Results and Findings 🔮
 
@@ -38,7 +35,8 @@ The results of the project are distributed across the individual notebooks but c
 - [PlayerPositionPrediction.ipynb] provides predictive models for player positions, aiding in player selection and strategy.
 - [Formations_DataFrame.ipynb] introduces the "MatchAndStats.csv" dataset, enabling in-depth formation analysis.
 - [FormationsOptimization.ipynb] identifies winning formations, facilitating informed decisions for coaches and analysts.
-
+- [FormationsEvaluation.ipynb] identifies winning formations, facilitating informed decisions for coaches and analysts.
+- 
 ## 5. Conclusion 💭
 
 The project represents a holistic endeavor to extract actionable insights from football data. By combining exploratory data analysis, predictive modeling, and formation analysis, it contributes to the growing body of knowledge in the field of sports analytics. The project's findings hold significant potential for enhancing player performance assessment, team strategy development, and match outcome prediction in professional football.
