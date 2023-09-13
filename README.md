@@ -17,14 +17,7 @@ We venture to offer a nuanced way of utilizing data to shape game strategies, fo
 
 ## Techniques 🛠
 
-The analysis and model development are carried out in a series of Jupyter notebooks, each delving into specific aspects of football analytics, ranging from Exploratory Data Analysis (EDA) to predictive modelling. Our techniques involve a meticulous examination of various metrics, including:
-
-- **Biomechanical Analysis**
-- **Real-time Performance Statistics**
-- **Individual and Collective Player Attributes**
-- **Contextual Factors of the Match**
-
-Through a dual approach focused on individual player attributes and team characteristics, we aim to foster a potent tool for strategizing both training and competitions.
+The analysis and model development are carried out in a series of Jupyter notebooks, each delving into specific aspects of football analytics, ranging from Exploratory Data Analysis (EDA), Feature Engeneering, Machine and Deep Learning...
 
 ## Results 📊
 
