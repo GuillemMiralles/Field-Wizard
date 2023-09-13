@@ -1,44 +1,40 @@
-# Field Wizard: Predicting Positions and Formations for Success on the Soccer Field ⚽
-
-## Introduction 🌟
-
-Welcome to the "Field Wizard" project, where we dive deep into the rich world of football data to unravel patterns and insights that can transform the strategies adopted on the football field. Through comprehensive analytics and predictive modelling captured in a series of Jupyter notebooks, we shed light on the complex dynamics of football, enhancing the understanding and approach to the beautiful game.
-
-In this modern era, data has revolutionized various aspects of our society, including sports analytics. By tapping into this goldmine of data, we aim to augment strategic decision-making on and off the field, thereby elevating the level of competition to new pinnacles.
-
-## Objectives 🎯
-
-The primary goal of this project is to craft two dynamic models to optimize on-field strategies using a data-driven approach:
-
-1. **Player Position Prediction** - Predict the strategic positions a player can occupy based on individual attributes such as speed, stamina, and technical skills, thus enhancing the overall team strategy.
-2. **Team Formation Optimization** - Develop formations that not only leverage your team's strengths but also counteract the opposing team's strengths, considering the attributes of both your team and the opponents.
-
-We venture to offer a nuanced way of utilizing data to shape game strategies, focusing on deepening the integration of data science in football.
-
-## Techniques 🛠
-
-The analysis and model development are carried out in a series of Jupyter notebooks, each delving into specific aspects of football analytics, ranging from Exploratory Data Analysis (EDA), Feature Engeneering, Machine and Deep Learning...
-
-## Results 📊
-
-Our models demonstrated promising results, establishing the efficacy of this approach in football strategy optimization:
-
-- **Player Position Prediction Model**
-  - **Accuracy:** 0.97
-  - **F1 Score:** 0.99
-- **Team Formation Optimization Model**
-  - **Accuracy:** 0.783
-  - **F1 Score:** 0.782
-
-By leveraging data analytics, we not only facilitate a deeper understanding of the game dynamics but open a frontier for more sophisticated and effective strategies.
-
-Feel free to explore the notebooks to understand the methodology employed and the rich insights derived from our analysis.
-
-## Conclusion 🏁
-
-The "Field Wizard" project stands at the intersection of data science and football, offering innovative solutions to enhance strategic planning and execution in football. We invite coaches, analysts, and enthusiasts to delve into this exciting journey with us, ushering in a new era of data-driven decision-making in football.
-
-
+<!DOCTYPE html>
+<html>
+<body>
+  <h1># Field Wizard: Predicting Positions and Formations for Success on the Soccer Field ⚽</h1>
+  <h2>🌟 Introduction</h2>
+  <p>Welcome to the "Field Wizard" project, a deep exploration into the rich world of football data to unearth patterns and insights capable of transforming the strategies adopted on the football field. With the support of a series of Jupyter notebooks, we carry out extensive analytics and predictive modeling to enhance understanding and approaches to the beautiful game in this modern era where data has revolutionized various aspects of our society, including sports analytics.</p>
+  <p>By harnessing this goldmine of data, we augment strategic decision-making both on and off the field, aiming to elevate the level of competition to new heights.</p>
+  <h2>🎯 Objectives</h2>
+  <p>The focal point of this project is to forge two dynamic models that optimize on-field strategies through a data-driven approach:</p>
+  <ul>
+    <li><strong>Player Position Prediction</strong> - Leveraging individual attributes such as speed, stamina, and technical skills to predict the strategic positions a player can occupy, thereby enhancing the overall team strategy.</li>
+    <li><strong>Team Formation Optimization</strong> - Creating formations that leverage your team's strengths while counteracting the opposing team's strengths, considering the attributes of both your team and the opponents.</li>
+  </ul>
+  <p>We strive to present a nuanced method of using data to shape game strategies, focusing on deepening the integration of data science in football.</p>
+  <h2>🛠 Techniques</h2>
+  <p>The analytical process and model development have been executed in a series of Jupyter notebooks, each concentrating on particular facets of football analytics such as Exploratory Data Analysis (EDA), Feature Engineering, and the application of Machine and Deep Learning techniques.</p>
+  <h2>📊 Results</h2>
+  <p>Our models have showcased promising results, confirming the potential of this approach in optimizing football strategies:</p>
+  <ul>
+    <li><strong>Player Position Prediction Model</strong>
+      <ul>
+        <li><strong>Accuracy:</strong> 0.97</li>
+        <li><strong>F1 Score:</strong> 0.99</li>
+      </ul>
+    </li>
+    <li><strong>Team Formation Optimization Model</strong>
+      <ul>
+        <li><strong>Accuracy:</strong> 0.783</li>
+        <li><strong>F1 Score:</strong> 0.782</li>
+      </ul>
+    </li>
+  </ul>
+  <p>Leveraging data analytics facilitates not only a deeper comprehension of game dynamics but also inaugurates a realm of more sophisticated and efficient strategies. We encourage you to explore the notebooks to grasp the methodology utilized and the rich insights obtained from our analysis.</p>
+  <h2>🏁 Conclusion</h2>
+  <p>The "Field Wizard" project situates itself at the crossroads of data science and football, presenting innovative solutions to elevate strategic planning and execution in football. We invite coaches, analysts, and enthusiasts to immerse themselves in this thrilling journey with us, heralding a new epoch of data-driven decision-making in football.</p>
+</body>
+</html>
 
 # Detailed notebooks 🔎
 ---
