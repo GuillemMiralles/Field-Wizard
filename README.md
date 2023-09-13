@@ -76,6 +76,7 @@ Our toolkit consists of a diverse set of data analysis techniques and tools, inc
 - Hints of machine learning magic, such as the enigmatic Random Forest and neural networks, may be lurking beyond the provided code, waiting to reveal their secrets elsewhere in the project.
 
 ### 📈 Results:
+
 While there's no dedicated "Results" section, the analysis unfolds like a captivating story, with results woven into visualizations and charts. Expect to unearth patterns in player clustering through PCA techniques, witness the player ratings' evolution, and grasp the symphony of overall ratings orchestrated by player positions. These discoveries hold the keys to decisions in the realm of football, like player selection and performance evaluation over time.
 ---
 
