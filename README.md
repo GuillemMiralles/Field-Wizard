@@ -2,6 +2,7 @@
 <html>
 <body>
   <h1> Field Wizard: Predicting Positions and Formations for Success on the Soccer Field ⚽</h1>
+  
   <h2>🌟 Introduction</h2>
   <p>Welcome to the "Field Wizard" project, a deep exploration into the rich world of football data to unearth patterns and insights capable of transforming the strategies adopted on the football field. With the support of a series of Jupyter notebooks, we carry out extensive analytics and predictive modeling to enhance understanding and approaches to the beautiful game in this modern era where data has revolutionized various aspects of our society, including sports analytics.</p>
   <p>By harnessing this goldmine of data, we augment strategic decision-making both on and off the field, aiming to elevate the level of competition to new heights.</p>
@@ -33,6 +34,19 @@
   <p>Leveraging data analytics facilitates not only a deeper comprehension of game dynamics but also inaugurates a realm of more sophisticated and efficient strategies. We encourage you to explore the notebooks to grasp the methodology utilized and the rich insights obtained from our analysis.</p>
   <h2>🏁 Conclusion</h2>
   <p>The "Field Wizard" project situates itself at the crossroads of data science and football, presenting innovative solutions to elevate strategic planning and execution in football. We invite coaches, analysts, and enthusiasts to immerse themselves in this thrilling journey with us, heralding a new epoch of data-driven decision-making in football.</p>
+
+  <h2>💽 Data</h2>
+  <p>In this project, we utilized the following datasets to fuel our analyses and drive our predictions:</p>
+  <ul>
+    <li>European Soccer Database: <a href="https://www.kaggle.com/datasets/hugomathien/soccer">Access here</a></li>
+    <li>FIFA Complete Player Dataset: 
+      <ul>
+        <li>Players 2015: <a href="https://www.kaggle.com/datasets/stefanoleone992/fifa-22-complete-player-dataset?select=players_15.csv">Access here</a></li>
+        <li>Players 2016: <a href="https://www.kaggle.com/datasets/stefanoleone992/fifa-22-complete-player-dataset?select=players_16.csv">Access here</a></li>
+      </ul>
+    </li>
+  </ul>
+
 
   <h2>📂 Files</h2>
   <ul>
