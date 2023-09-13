@@ -1,60 +1,55 @@
-# Field Wizard: Predicting Positions and Formations for Success on the Soccer Field ⚽🧐🔥
+# Field Wizard: Predicting Positions and Formations for Success on the Soccer Field ⚽
 
-## Abstract 📝
+## Introduction 🌟
 
-The project, titled "Field Wizard: Predicting Positions and Formations for Success on the Soccer Field", represents a comprehensive exploration of football player data and match-related information with a goal to uncover insights, patterns, and predictive models in the realm of professional football. The project comprises a series of Jupyter notebooks, each focusing on specific aspects of the analysis, ranging from exploratory data analysis (EDA) to predictive modeling of football-related phenomena. 
+Welcome to the "Field Wizard" project, where we dive deep into the rich world of football data to unravel patterns and insights that can transform the strategies adopted on the football field. Through comprehensive analytics and predictive modelling captured in a series of Jupyter notebooks, we shed light on the complex dynamics of football, enhancing the understanding and approach to the beautiful game.
 
-## 1. Introduction 📣
+In this modern era, data has revolutionized various aspects of our society, including sports analytics. By tapping into this goldmine of data, we aim to augment strategic decision-making on and off the field, thereby elevating the level of competition to new pinnacles.
 
-The world of professional football is driven by data, with every player, team, and match generating a treasure trove of information. In the era of data-driven decision-making, understanding and harnessing this wealth of data can lead to significant advantages in player scouting, team strategy development, and match outcome prediction. The project seeks to leverage advanced data analysis and machine learning techniques to explore diverse facets of football-related data.
+## Objectives 🎯
 
-## 2. Notebooks Overview 📚
+The primary goal of this project is to craft two dynamic models to optimize on-field strategies using a data-driven approach:
 
-The project comprises four distinct Jupyter notebooks, each addressing specific aspects of football data analysis and modeling:
+1. **Player Position Prediction** - Predict the strategic positions a player can occupy based on individual attributes such as speed, stamina, and technical skills, thus enhancing the overall team strategy.
+2. **Team Formation Optimization** - Develop formations that not only leverage your team's strengths but also counteract the opposing team's strengths, considering the attributes of both your team and the opponents.
 
-1. **PlayerPositionEDA.ipynb:** This notebook dives into the world of football player positions, conducting an in-depth exploratory data analysis. It investigates the correlations between player positions and ratings across different seasons, aiming to provide insights into the evolving landscape of football player roles.
+We venture to offer a nuanced way of utilizing data to shape game strategies, focusing on deepening the integration of data science in football.
 
-2. **PlayerPositionPrediction.ipynb:** Building upon the insights gained from the EDA, this notebook takes on the challenge of predicting player positions based on their attributes and performance. Machine learning models are employed to create predictive models that assist clubs, coaches, and analysts in understanding the most suitable positions for players.
+## Techniques 🛠
 
-3. **Formations_DataFrame.ipynb:** Football matches are not just about individual player performance but also about team formations. This notebook delves into match data and player statistics to unravel the influence of team formations on match outcomes. A new dataset, "MatchAndStats.csv," is created to facilitate comprehensive analysis.
+The analysis and model development are carried out in a series of Jupyter notebooks, each delving into specific aspects of football analytics, ranging from Exploratory Data Analysis (EDA) to predictive modelling. Our techniques involve a meticulous examination of various metrics, including:
 
-4. **FormationsOptimization.ipynb:** Winning football formations can significantly impact match outcomes. This notebook ventures into the realm of predictive modeling to identify winning team formations based on historical performance data. The application of machine learning, including linear regression and Random Forest, empowers coaches and analysts with insights into successful formations.
+- **Biomechanical Analysis**
+- **Real-time Performance Statistics**
+- **Individual and Collective Player Attributes**
+- **Contextual Factors of the Match**
 
-5. **FormationsOptimization.ipynb:** The notebook orchestrates a symphony of data analysis and modeling to predict losing team formations in football matches. Armed with a dataset brimming with match, team, and player information, it ventures into the realm of machine learning to foresee the formations of the unfortunate teams.
+Through a dual approach focused on individual player attributes and team characteristics, we aim to foster a potent tool for strategizing both training and competitions.
 
+## Results 📊
 
-## 3. Methodology 📙
+Our models demonstrated promising results, establishing the efficacy of this approach in football strategy optimization:
 
-The project employs a diverse set of techniques and tools, including data preprocessing, exploratory data analysis, feature engineering, machine learning modeling and deep learning. These techniques collectively form the foundation for gaining insights and building predictive models in the domain of professional football.
+- **Player Position Prediction Model**
+  - **Accuracy:** 0.97
+  - **F1 Score:** 0.99
+- **Team Formation Optimization Model**
+  - **Accuracy:** 0.783
+  - **F1 Score:** 0.782
 
-## 4. Results and Findings 🔮
+By leveraging data analytics, we not only facilitate a deeper understanding of the game dynamics but open a frontier for more sophisticated and effective strategies.
 
-The results of the project are distributed across the individual notebooks but collectively offer valuable insights:
+Feel free to explore the notebooks to understand the methodology employed and the rich insights derived from our analysis.
 
-- [PlayerPositionEDA.ipynb] reveals how player positions and ratings correlate, evolving over seasons.
-- [PlayerPositionPrediction.ipynb] provides predictive models for player positions, aiding in player selection and strategy.
-- [Formations_DataFrame.ipynb] introduces the "MatchAndStats.csv" dataset, enabling in-depth formation analysis.
-- [FormationsOptimization.ipynb] identifies winning formations, facilitating informed decisions for coaches and analysts.
-- [FormationsEvaluation.ipynb] identifies winning formations, facilitating informed decisions for coaches and analysts.
-- 
-## 5. Conclusion 💭
+## Conclusion 🏁
 
-The project represents a holistic endeavor to extract actionable insights from football data. By combining exploratory data analysis, predictive modeling, and formation analysis, it contributes to the growing body of knowledge in the field of sports analytics. The project's findings hold significant potential for enhancing player performance assessment, team strategy development, and match outcome prediction in professional football.
+The "Field Wizard" project stands at the intersection of data science and football, offering innovative solutions to enhance strategic planning and execution in football. We invite coaches, analysts, and enthusiasts to delve into this exciting journey with us, ushering in a new era of data-driven decision-making in football.
 
-## 6. Future Directions ⏬
-
-While the project has provided valuable insights, there are numerous avenues for future exploration. Future research could include:
-
-- Incorporating real-time data to enhance predictive models.
-- Exploring the impact of more features on match outcomes.
-- Conducting player-specific performance analysis for individual player development.
 
 
 # Detailed notebooks 🔎
 ---
 ## 📊 PlayerPositionEDA.ipynb
-
-### 🚀 Introduction:
 The Jupyter notebook "PlayerPositionEDA.ipynb" is your gateway to an exciting journey through Exploratory Data Analysis (EDA) in the realm of football player positions. Dive into this adventure powered by various Python libraries as we explore and visualize data related to player ratings and positions across different seasons. Our main goal? To unravel the intricate dance between player positions and ratings, tracing their evolution over time.
 
 ### 🎯 Objective:
